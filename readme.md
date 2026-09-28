@@ -7,8 +7,8 @@ this is yet another simple calculator program that runs in your terminal it's wr
 
 **clone the repository**
    ```bash
-   git clone [https://github.com/1rwxr1xr1x/yet-another-calculator-in-cpp.git](https://github.com/1rwxr1xr1x/yet-another-calculator-in-cpp.git)
-   cd yet-another-calculator-in-cpp
+git clone https://github.com/1rwxr1xr1x/yet-another-calculator-in-cpp.git
+cd yet-another-calculator-in-cpp
 ```
 **compile the source file**
 ```bash
