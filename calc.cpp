@@ -63,7 +63,7 @@ int main()
         }
         else if (op == "/")
         {
-            if (n == 0)
+            if (n1,n2 == 0)
             {
                 cout << "\nerror: you dont get to divide by zero!" << endl;
             }
