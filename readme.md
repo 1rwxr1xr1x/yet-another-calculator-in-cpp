@@ -13,7 +13,6 @@ cd yet-another-calculator-in-cpp
 **compile the source file**
 ```bash
 g++ -o calc calc.cpp
-./calc
 ```
 **and finally run it by executing it**
 ````bash
