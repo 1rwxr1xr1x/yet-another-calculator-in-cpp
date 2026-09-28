@@ -31,6 +31,15 @@ int main()
         cout << "\t/ >-divide" << endl;
         cout << "\nyour-choice: ";
 
+        // in case where n1 is not a number
+        if (!(cin >> n1))
+        {
+            cout << "invalid input! use an actual number" << endl;
+            cin.clear();
+            cin.ignore(10000, '\n');
+            continue;
+        }
+            
         string op;
         cin >> op;
 
@@ -54,6 +63,13 @@ int main()
         }
         else if (op == "/")
         {
+            if (n == 0)
+            {
+                cout << "\nerror: you dont get to divide by zero!" << endl;
+            }
+        }
+            else
+        {
             result = n1 / n2;
             cout << endl;
             cout << "your-result: " << n1 << " / " << n2 << " = " << result << endl;
@@ -69,7 +85,7 @@ int main()
         cin >> choice;
         for (auto &c : choice) c = toupper(c);
 
-    } while (choice == "Y");
+    } while (choice == "Y" || choice == "YES");
 
     cout << "\nbye =)" << endl;
     return 0;
